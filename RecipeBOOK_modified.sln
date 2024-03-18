@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecipeBOOK_modified", "RecipeBOOK_modified\RecipeBOOK_modified.csproj", "{5CDCE03D-C3A1-4404-98FD-23F7F37D31FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{64A18B24-82B7-44FE-9D7A-231EB26691DC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5CDCE03D-C3A1-4404-98FD-23F7F37D31FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CDCE03D-C3A1-4404-98FD-23F7F37D31FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CDCE03D-C3A1-4404-98FD-23F7F37D31FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CDCE03D-C3A1-4404-98FD-23F7F37D31FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64A18B24-82B7-44FE-9D7A-231EB26691DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64A18B24-82B7-44FE-9D7A-231EB26691DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64A18B24-82B7-44FE-9D7A-231EB26691DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64A18B24-82B7-44FE-9D7A-231EB26691DC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1F4917A8-E9AB-403E-B182-322DF552B453}
+	EndGlobalSection
+EndGlobal

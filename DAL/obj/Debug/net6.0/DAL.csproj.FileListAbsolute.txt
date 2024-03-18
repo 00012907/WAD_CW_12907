@@ -1,0 +1,14 @@
+E:\Users\00012907\Downloads\RecipeBOOK_modified\DAL\obj\Debug\net6.0\DAL.csproj.AssemblyReference.cache
+E:\Users\00012907\Downloads\RecipeBOOK_modified\DAL\obj\Debug\net6.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+E:\Users\00012907\Downloads\RecipeBOOK_modified\DAL\obj\Debug\net6.0\DAL.AssemblyInfoInputs.cache
+E:\Users\00012907\Downloads\RecipeBOOK_modified\DAL\obj\Debug\net6.0\DAL.AssemblyInfo.cs
+E:\Users\00012907\Downloads\RecipeBOOK_modified\DAL\obj\Debug\net6.0\DAL.csproj.CoreCompileInputs.cache
+E:\Users\00012907\Downloads\RecipeBOOK_modified\DAL\bin\Debug\net6.0\DAL.deps.json
+E:\Users\00012907\Downloads\RecipeBOOK_modified\DAL\bin\Debug\net6.0\DAL.runtimeconfig.json
+E:\Users\00012907\Downloads\RecipeBOOK_modified\DAL\bin\Debug\net6.0\DAL.dll
+E:\Users\00012907\Downloads\RecipeBOOK_modified\DAL\bin\Debug\net6.0\DAL.pdb
+E:\Users\00012907\Downloads\RecipeBOOK_modified\DAL\obj\Debug\net6.0\DAL.dll
+E:\Users\00012907\Downloads\RecipeBOOK_modified\DAL\obj\Debug\net6.0\refint\DAL.dll
+E:\Users\00012907\Downloads\RecipeBOOK_modified\DAL\obj\Debug\net6.0\DAL.pdb
+E:\Users\00012907\Downloads\RecipeBOOK_modified\DAL\obj\Debug\net6.0\DAL.genruntimeconfig.cache
+E:\Users\00012907\Downloads\RecipeBOOK_modified\DAL\obj\Debug\net6.0\ref\DAL.dll
