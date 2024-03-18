@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Users\\00012907\\Downloads\\RecipeBOOK_modified\\RecipeBOOK_modified\\RecipeBOOK_modified.csproj": {}
+    "\\\\peter\\ZDrive\\00012907\\Desktop\\RecipeBOOK_modified22\\RecipeBOOK_modified22\\RecipeBOOK_modified\\RecipeBOOK_modified.csproj": {}
   },
   "projects": {
-    "E:\\Users\\00012907\\Downloads\\RecipeBOOK_modified\\DAL\\DAL.csproj": {
+    "\\\\peter\\ZDrive\\00012907\\Desktop\\RecipeBOOK_modified22\\RecipeBOOK_modified22\\DAL\\DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Users\\00012907\\Downloads\\RecipeBOOK_modified\\DAL\\DAL.csproj",
+        "projectUniqueName": "\\\\peter\\ZDrive\\00012907\\Desktop\\RecipeBOOK_modified22\\RecipeBOOK_modified22\\DAL\\DAL.csproj",
         "projectName": "DAL",
-        "projectPath": "E:\\Users\\00012907\\Downloads\\RecipeBOOK_modified\\DAL\\DAL.csproj",
+        "projectPath": "\\\\peter\\ZDrive\\00012907\\Desktop\\RecipeBOOK_modified22\\RecipeBOOK_modified22\\DAL\\DAL.csproj",
         "packagesPath": "E:\\Users\\00012907\\.nuget\\packages\\",
-        "outputPath": "E:\\Users\\00012907\\Downloads\\RecipeBOOK_modified\\DAL\\obj\\",
+        "outputPath": "\\\\peter\\ZDrive\\00012907\\Desktop\\RecipeBOOK_modified22\\RecipeBOOK_modified22\\DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -79,14 +79,14 @@
         }
       }
     },
-    "E:\\Users\\00012907\\Downloads\\RecipeBOOK_modified\\RecipeBOOK_modified\\RecipeBOOK_modified.csproj": {
+    "\\\\peter\\ZDrive\\00012907\\Desktop\\RecipeBOOK_modified22\\RecipeBOOK_modified22\\RecipeBOOK_modified\\RecipeBOOK_modified.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Users\\00012907\\Downloads\\RecipeBOOK_modified\\RecipeBOOK_modified\\RecipeBOOK_modified.csproj",
+        "projectUniqueName": "\\\\peter\\ZDrive\\00012907\\Desktop\\RecipeBOOK_modified22\\RecipeBOOK_modified22\\RecipeBOOK_modified\\RecipeBOOK_modified.csproj",
         "projectName": "RecipeBOOK_modified",
-        "projectPath": "E:\\Users\\00012907\\Downloads\\RecipeBOOK_modified\\RecipeBOOK_modified\\RecipeBOOK_modified.csproj",
+        "projectPath": "\\\\peter\\ZDrive\\00012907\\Desktop\\RecipeBOOK_modified22\\RecipeBOOK_modified22\\RecipeBOOK_modified\\RecipeBOOK_modified.csproj",
         "packagesPath": "E:\\Users\\00012907\\.nuget\\packages\\",
-        "outputPath": "E:\\Users\\00012907\\Downloads\\RecipeBOOK_modified\\RecipeBOOK_modified\\obj\\",
+        "outputPath": "\\\\peter\\ZDrive\\00012907\\Desktop\\RecipeBOOK_modified22\\RecipeBOOK_modified22\\RecipeBOOK_modified\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -108,8 +108,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "E:\\Users\\00012907\\Downloads\\RecipeBOOK_modified\\DAL\\DAL.csproj": {
-                "projectPath": "E:\\Users\\00012907\\Downloads\\RecipeBOOK_modified\\DAL\\DAL.csproj"
+              "\\\\peter\\ZDrive\\00012907\\Desktop\\RecipeBOOK_modified22\\RecipeBOOK_modified22\\DAL\\DAL.csproj": {
+                "projectPath": "\\\\peter\\ZDrive\\00012907\\Desktop\\RecipeBOOK_modified22\\RecipeBOOK_modified22\\DAL\\DAL.csproj"
               }
             }
           }

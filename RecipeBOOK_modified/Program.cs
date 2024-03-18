@@ -2,7 +2,6 @@ using Microsoft.EntityFrameworkCore;
 using RecipeBook.DAL.Data;
 using RecipeBook.DAL.Models;
 using RecipeBook.DAL.Repositories;
-using static RecipeBook.DAL.Repositories.CategoriesRepository;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -55,13 +54,9 @@ builder.Services.AddDbContext<RecipeBookDbContext>(options => options.UseSqlServ
 
 
 
-
 builder.Services.AddScoped<IRepository<Recipe>, RecipesRepository>();
 
-builder.Services.AddScoped<IRepository<Category>, CategoriesRepository>();
-
-
-
+builder.Services.AddScoped<IRepository<Category>,CategoriesRepository>();
 
 
 

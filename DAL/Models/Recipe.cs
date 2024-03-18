@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -23,8 +24,8 @@ namespace RecipeBook.DAL.Models
         [Required]
         [Range(1, int.MaxValue)] // Ensures prep time is at least 1 minute
         public int PreparationTime { get; set; }
-
-        public int CategoryId { get; set; }
-        public Category Category { get; set; }
+        [ForeignKey(nameof(Category))]
+        public int CategoryID { get; set; }
+        public Category? Category { get; set; }
     }
 }

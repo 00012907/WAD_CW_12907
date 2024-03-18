@@ -6,10 +6,8 @@ using RecipeBook.DAL.Repositories;
 
 namespace RecipeBook.Controllers
 {
-    [Route("api/[controller]")]
-    [ApiController]
-    public class CategoriesController : ControllerBase
-    {
+
+  
         [Route("api/[controller]/[action]")]
         [ApiController]
         public class CategoryController : ControllerBase
@@ -78,4 +76,3 @@ namespace RecipeBook.Controllers
 
     }
         
-}

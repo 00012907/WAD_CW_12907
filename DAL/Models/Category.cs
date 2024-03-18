@@ -17,6 +17,5 @@ namespace RecipeBook.DAL.Models
         [MinLength(2, ErrorMessage = "Category name must be at least 2 characters long")]
         public string Name { get; set; }
 
-        public ICollection<Recipe> Recipes { get; set; }
     }
 }

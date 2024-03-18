@@ -6,7 +6,7 @@ using RecipeBook.DAL.Repositories;
 
 namespace RecipeBook.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/[controller]/[action]")]
     [ApiController]
     public class RecipesController : ControllerBase
     {
@@ -31,19 +31,21 @@ namespace RecipeBook.Controllers
 
         [HttpPost]
         [ProducesResponseType(StatusCodes.Status201Created)]
-        public async Task<IActionResult> Create(Recipe recipe)
+        public async Task<IActionResult> Create(Recipe recipes)
         {
-            await _recipeRepository.AddAsync(recipe);
-            return CreatedAtAction(nameof(GetById), new { id = recipe.Id }, recipe);
+            await _recipeRepository.AddAsync(recipes);
+
+            return CreatedAtAction(nameof(GetById), new { id = recipes.Id }, recipes);
+            return Ok(recipes);
         }
 
         [HttpPut]
         [ProducesResponseType(StatusCodes.Status204NoContent)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
-        public async Task<IActionResult> Update(Recipe recipe)
+        public async Task<IActionResult> Update(Recipe recipes)
         {
             //if (id != recipe.Id) return BadRequest();
-            await _recipeRepository.UpdateAsync(recipe);
+            await _recipeRepository.UpdateAsync(recipes);
             return NoContent();
         }
 
