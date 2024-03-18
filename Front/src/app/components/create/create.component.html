@@ -1,0 +1,41 @@
+
+<div class="container">
+    <div class="p-8 mt-8 flex justify-center box">
+        <form class="shadow border w-4/12 p-4">
+            <div class="flex">
+                <mat-form-field class="w-full">
+                    <mat-label>Title </mat-label>
+                    <input matInput name="title" type="text" [(ngModel)]="createRecipe.title">
+                </mat-form-field>
+            </div>
+            <div class="flex">
+                <mat-form-field class="w-full">
+                    <mat-label>Description </mat-label>
+                    <input matInput name="description" type="text" [(ngModel)]="createRecipe.description">
+                </mat-form-field>
+            </div>
+            <div class="flex">
+                <mat-form-field class="w-full">
+                    <mat-label>Preparation Time (Min) </mat-label>
+                    <input matInput name="preparationTime" type="number" [(ngModel)]="createRecipe.preparationTime">
+                </mat-form-field>
+            </div>
+            <div class="flex">
+                <mat-form-field class="w-full">
+                    <mat-label>Choose Category</mat-label>
+                    <mat-select [(ngModel)]="cID" name="Category">
+                        @for(c of cate; track c)
+                        {
+                        <mat-option [value]="c.id">{{c.name}}</mat-option>
+                        }
+                    </mat-select>
+                </mat-form-field>
+            </div>
+            <div class="flex justify-center">
+                <button (click)="create()">CREATE</button>
+            </div>
+        </form>
+    </div>
+
+</div>
+    

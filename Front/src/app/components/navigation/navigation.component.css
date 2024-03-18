@@ -1,0 +1,31 @@
+.example-spacer {
+    flex: 1 1 auto;
+  }
+  mat-toolbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    height: 12vh;
+    background-color: #0f9d58;
+    color: white;
+  }
+ 
+ mat-toolbar button.createBtn{
+  padding: 0.5rem 1rem;
+  transition: 0.3s;
+  font-size: 22px;
+  letter-spacing: 2px;
+  text-decoration: underline;
+ }
+ mat-toolbar span{
+  font-size: 32px;
+  transition: 0.5s;
+ }
+ mat-toolbar span:hover{
+  color: black;
+ }
+
+ mat-toolbar button.createBtn:hover{
+  color: black;
+ }
+ 
