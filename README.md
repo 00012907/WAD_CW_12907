@@ -36,3 +36,22 @@ Add new recipes
 View existing recipes
 Edit recipe details
 Delete recipes
+
+
+**Before running the RecipeBook Web App, ensure you have the following prerequisites installed:
+**
+Node.js: Install Node.js from nodejs.org according to your operating system.
+
+Angular CLI: Install Angular CLI globally by running the following command in your terminal
+npm install -g @angular/cli
+
+Database Setup: Ensure you have a database system installed and running. The RecipeBook Web App requires a database with support for foreign keys. PostgreSQL or MySQL are recommended options.
+
+Running the Application
+To run the RecipeBook Web App:
+
+Clone the repository: git clone <repository-url>
+Navigate to the project directory: cd recipe-book
+Install dependencies: npm install
+Start the Angular development server: ng serve
+Access the application in your browser at http://localhost:4200
