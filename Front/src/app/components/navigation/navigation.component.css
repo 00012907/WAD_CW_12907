@@ -1,5 +1,5 @@
 .example-spacer {
-    flex: 1 1 auto;
+    flex: 1 1;
   }
   mat-toolbar{
     display: flex;
@@ -28,4 +28,7 @@
  mat-toolbar button.createBtn:hover{
   color: black;
  }
- 
+ .container{
+  max-width: 100%;
+
+ }

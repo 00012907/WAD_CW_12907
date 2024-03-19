@@ -10,7 +10,7 @@ export class ServiceRecipeService {
   constructor() { }
 
   getAllRecipes(){
-    return this.httpClient.get<RecipeBook[]>("http://localhost:5182/api/Recipes/GetAll/")
+    return this.httpClient.get<RecipeBook[]>("http://localhost:5182/api/Recipes/GetAll")
   };
 
   getByID(id:number){

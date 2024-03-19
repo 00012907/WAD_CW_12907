@@ -39,10 +39,8 @@ export class DeleteComponent {
   onHomeButtonClick(){
     this.router.navigateByUrl("home")
   }
-
-
-  onDeleteButtonClick(id:number){
+   onDeleteButtonClick(id:number){
     this.service.delete(id).subscribe(r=>{this.router.navigateByUrl('home')});
-    alert("Deleted  item with ID: "+id)    
+    alert("Deleted  item with ID: "+id)  
   }
 }
